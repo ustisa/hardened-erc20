@@ -12,3 +12,15 @@ docs/
 
 # Dotenv file
 .env
+.env.*
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node (if needed later)
+node_modules/
