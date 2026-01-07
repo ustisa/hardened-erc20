@@ -11,11 +11,7 @@ contract DeployRealityCheckToken is Script {
         vm.startBroadcast(deployerPrivateKey);
 
         // Deploy the token
-        new RealityCheckToken(
-            "RealityCheckToken",
-            "RealityCheckToken",
-            1_000_000 * 10 ** 18
-        );
+        new RealityCheckToken("RealityCheckToken", "RealityCheckToken", 1_000_000 * 10 ** 18);
 
         vm.stopBroadcast();
     }

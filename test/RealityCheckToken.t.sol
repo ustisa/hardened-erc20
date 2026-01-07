@@ -9,11 +9,7 @@ contract RealityCheckTokenTest is Test {
     address user = address(0xBEEF);
 
     function setUp() public {
-        token = new RealityCheckToken(
-            "Reality Check",
-            "REAL",
-            1_000_000 ether
-        );
+        token = new RealityCheckToken("Reality Check", "REAL", 1_000_000 ether);
     }
 
     function testOwnerCanMint() public {
